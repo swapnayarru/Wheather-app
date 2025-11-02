@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #eef2f7; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; }
+.app { background:white; padding:20px 24px; border-radius:12px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); width:380px; }
+h1 { margin:0 0 12px 0; font-size:20px; text-align:center; }
+.search { display:flex; gap:8px; margin-bottom:12px; }
+.search input { flex:1; padding:8px; border-radius:6px; border:1px solid #ccc; }
+.search select, .search button { padding:8px; border-radius:6px; border:1px solid #ccc; background:white; }
+.result.hidden, .error.hidden { display:none; }
+.row { display:flex; gap:12px; align-items:center; }
+img { width:80px; height:80px; }
+.details p { margin:6px 0; }
+.error { color:#a94442; background:#f2dede; padding:8px; border-radius:6px; }
